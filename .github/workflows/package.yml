@@ -149,7 +149,6 @@ jobs:
           tag_name: ${{ env.TAG }}
 
   build-windows:
-    needs:
     runs-on: windows-latest
     steps:
       - name: Checkout AutoSubs Repo Code
